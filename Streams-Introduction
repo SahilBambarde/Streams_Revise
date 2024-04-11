@@ -1,0 +1,44 @@
+Streams
+
+Process data fast using multicore processor
+
+Streams are used to process the collection object
+
+stream is added in collection interface in java 1.8 version as default method
+all collection object will have this method
+
+Data Processing with Streams
+|
+Configuration and Processing
+|                   |
+filter and map
+
+
+filter is a method present in stream interface
+
+public Stream filter(Predicate<T> t)
+
+
+public Stream map(Function<T,R> f)
+
+-----------------------------------------------------------------------
+
+Parallel Stream
+
+Sequential Stream -> one lane road
+Parallel stream -> 4 lan road
+enhance performance,
+take advantage of multicore processors
+
+--------------------------------------------------------------------------
+parallelStream() method on a collection
+parallel method on a stream
+
+stateless : state of one element does not affect another element
+non interfering : data source is not affected while operation
+associative : one operation result in not affected by the order of data under processing
+
+--------------------------------------------------------------------------
+
+
+
